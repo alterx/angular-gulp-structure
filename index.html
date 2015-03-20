@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="angularAsessment" ng-cloak ng-controller="MainCtrl as mainCtrl">
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Angular asessment</title>
+
+        <link rel="stylesheet" href="./src/styles/css/styles.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <ng-view></ng-view>
+        </div>
+
+
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+
+        <script src="./src/app.js"></script>
+        <script src="./src/mainCtrl.js"></script>
+
+        <script src="./src/pages/home/homeCtrl.js"></script>
+
+    </body>
+</html>
